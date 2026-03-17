@@ -12,3 +12,5 @@ Client -> OpenAI server (MCP tool request) -> Client -> Will call MCP server end
 
 
 3. Stdio MCP servers
+
+Client -> Spawns MCP server as local process -> Client sends request via Stdio (stdin) -> MCP server processes request -> MCP server sends response via Stdio (stdout) -> Client
