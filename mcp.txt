@@ -1,0 +1,14 @@
+1. Hosted MCP
+
+Client -> OpenAI -> MCP server -> MCP response -> OpenAI -> Client
+
+
+
+2. Streamable HTTP MCP servers 
+
+Client -> OpenAI server (MCP tool request) -> Client -> Will call MCP server endpoint
+-> MCP Response -> Send back to OpenAI Server -> Client
+
+
+
+3. Stdio MCP servers
